@@ -36,6 +36,13 @@ This is where the student would implement their solution to the challenge.
 
 When the student saves their work, the browser should automatically execute the test suite and return a solid signal of green if all the tests pass or red if one or more did not pass.
 
+## Running the Example
+
+```
+yarn
+yarn start
+```
+
 ## Other things
 
 * remember to modify the public/index.html page to customize your exercise

@@ -14,5 +14,8 @@
   "scripts": {
     "start": "parcel public/index.html",
     "test": "tape test"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
   }
 }
