@@ -10,15 +10,15 @@ app.get('/', (req, res) => {
 })
 
 app.put('/:id', (req, res) => {
-  res.status(501).send({ ok: false, message: 'Not Implemented' })
+  res.send({ ok: false, message: 'Not Implemented' })
 })
 
 app.get('/:id', (req, res) => {
-  res.status(501).send({ ok: false, message: 'Not Implemented' })
+  res.send({ ok: false, message: 'Not Implemented' })
 })
 
 app.delete('/:id', (req, res) => {
-  res.status(501).send({ ok: false, message: 'Not Implemented' })
+  res.send({ ok: false, message: 'Not Implemented' })
 })
 
 module.exports = app

@@ -43,7 +43,7 @@ test('GET birds from /birds endpoint', assert => {
   request(app)
     .get('/birds')
     .then(response => {
-      t.ok(response.body.length > 0)
+      assert.ok(response.body.length > 0)
     })
 })
 
@@ -52,7 +52,7 @@ test('GET bird from /birds/eagle endpoint', assert => {
   request(app)
     .get('/birds/eagle')
     .then(response => {
-      t.same(response.body, { type: 'bird', _id: 'eagle', name: 'eagle' })
+      assert.same(response.body, { type: 'bird', _id: 'eagle', name: 'eagle' })
     })
 })
 
@@ -67,7 +67,7 @@ test('PUT bird using /birds/eagle endpoint', assert => {
       description: 'Bald Eagle'
     })
     .then(response => {
-      t.ok(response.ok)
+      assert.ok(response.body.ok)
     })
 })
 
@@ -76,6 +76,6 @@ test('REMOVE bird using /birds/eagle endpoint', assert => {
   request(app)
     .delete('/birds/eagle')
     .then(response => {
-      t.ok(response.ok)
+      assert.ok(response.ok)
     })
 })
