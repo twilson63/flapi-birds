@@ -1,1 +1,1 @@
-import './map_test'
+require('./birds_test')

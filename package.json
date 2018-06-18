@@ -5,17 +5,20 @@
   "repository": {},
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "core-js": "^2.5.7",
+    "express": "^4.16.3",
+    "faucet": "^0.0.1",
     "jsdoc-to-markdown": "^4.0.1",
+    "ramda": "^0.25.0",
     "regenerator-runtime": "^0.11.1",
+    "supertest": "^3.1.0",
     "tap-browser-color": "^0.1.2",
-    "tape": "^4.9.1"
+    "tape": "^4.9.1",
+    "tape-watch": "^2.3.0"
   },
   "scripts": {
-    "start": "parcel public/index.html",
-    "test": "tape test"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.8.1"
+    "start": "tape-watch test/index.js",
+    "test": "tape test | faucet"
   }
 }

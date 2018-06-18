@@ -1,59 +1,77 @@
-# Mage
+# Flapi Bird
 
-```
-         __   __  _______  _______  _______
-        |  |_|  ||   _   ||       ||       |
-        |       ||  |_|  ||    ___||    ___|
-        |       ||       ||   | __ |   |___
-        |       ||       ||   ||  ||    ___|
-        | ||_|| ||   _   ||   |_| ||   |___
-        |_|   |_||__| |__||_______||_______|
-```
+Flapi bird is a set of practice exercises for express nodejs rest api's.
 
-A template for creating javascript exercises with the ability to
-run tests in the browser. Using testing tools like tape and tapBrowserColor we can generate high signal for students getting started with code. These high signal yet simple tools empower the student to focus on the problems they are trying to solve.
+All of the exercises are driven by tests, so all you need to do is open each file in your editor, and
+then run `yarn start` in your console, the test will automatically run and validate
+as you save your files.
 
-## How do I get started
+## Learn objectives
 
-* Clone the repo
+To get familiar with the expressjs api and sending and receiving JSON data through REST endpoints.
 
-First you need an idea, and a tool or technology you want your students to learn. Levels that progressively get harder seem to be something students like a lot.
+## Challenges
 
-Think of this tool not as the teaching instrument, but the practice tool, for students to get high return on their investment of your training.
+There are four apis to build:
 
-### The Test Directory
+* birds
+* dogs
+* ducks
+* zoo
+* farm
 
-The test directory is where you put your tests, you can take one of two approaches:
+With each api, you will need to implement the following endpoints:
 
-1.  you write the tests and have the students complete the exercises and validate against your tests.
-2.  you can instruct the developers to create both the implementation and the tests.
+* POST /
+* GET /
+* GET /:id
+* PUT /:id
+* DELETE /:id
 
-> Both of these techniques are valuable.
+All of the source files are in the routes directory.
 
-## The src directory
+* [ ] birds
+* [ ] dogs
+* [ ] ducks
+* [ ] zoo
+* [ ] farm
 
-This is where the student would implement their solution to the challenge.
+## What do I need to know?
 
-When the student saves their work, the browser should automatically execute the test suite and return a solid signal of green if all the tests pass or red if one or more did not pass.
+* JavaScript
+* NodeJS (modules)
+* ExpressJS
 
-## Running the Example
+## Requirements
 
-```
-yarn
-yarn start
-```
+* NodeJS v8+ https://nodejs.org
+* Text Editor - https://atom.io
 
-## Other things
+## How to play
 
-* remember to modify the public/index.html page to customize your exercise
-* remember to modify this readme with your instructions
+* clone the `flapi-bird` repository
+* cd into the directory `flapi-bird`
+* run `npm install`
+* open the project in your editor `atom .` || `code .`
+* run `npm start`
 
-## Contributing
+The tests will be running in the console and will try to re-run every-time you save your files.
 
-* please submit an issue or pull request if you have ideas or implementation on how this tool can be improved
+Open the `routes/birds.js` file in the routes folder and start to implement your api until all the tests are passing.
 
-## Thank you!
+Repeat for all other api's.
 
-Thank you for using this tool, it is simple, but can be a powerful light weight teaching mechanism for eager students.
+## Help Support
 
-Built with <3 for JavaScript from the JRS Coding School
+* Having trouble - create an issue on github
+
+## Contributions
+
+All contributions are welcome.
+
+## Thank you
+
+* JavaScript Community
+* NodeJS Community
+* ExpressJS Community
+* JRS Coding School (http://jrscode.com)
