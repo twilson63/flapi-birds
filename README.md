@@ -1,6 +1,6 @@
-# Flapi Bird
+# Flapi Birds
 
-Flapi bird is a set of practice exercises for express nodejs rest api's.
+Flapi birds is a set of practice exercises for express nodejs rest api's.
 
 All of the exercises are driven by tests, so all you need to do is open each file in your editor, and
 then run `yarn start` in your console, the test will automatically run and validate
