@@ -7,11 +7,22 @@ const validBird = { _id: 'eagle', type: 'bird', name: 'eagle' }
 const invalidBird = { _id: 'beagle', type: 'dog', name: 'beagle' }
 
 const ok = (assert, key) =>
-  compose(assert.ok.bind(assert), prop(key), prop('body'))
+  compose(
+    assert.ok.bind(assert),
+    prop(key),
+    prop('body')
+  )
 const notOk = (assert, key) =>
-  compose(assert.notOk.bind(assert), prop(key), prop('body'))
+  compose(
+    assert.notOk.bind(assert),
+    prop(key),
+    prop('body')
+  )
 const equals = (assert, key, expected) => {
-  const actualFn = compose(prop(key), prop('body'))
+  const actualFn = compose(
+    prop(key),
+    prop('body')
+  )
   return actual => assert.equals(actualFn(actual), expected)
 }
 

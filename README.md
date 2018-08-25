@@ -6,54 +6,54 @@ All of the exercises are driven by tests, so all you need to do is open each fil
 then run `yarn start` in your console, the test will automatically run and validate
 as you save your files.
 
-## Learn objectives
+## Learning objectives
 
 To get familiar with the expressjs api and sending and receiving JSON data through REST endpoints.
 
 ## Challenges
 
-There are four apis to build:
+There are five apis to build:
 
-* birds
-* dogs
-* ducks
-* zoo
-* farm
+- birds (eagle, seagul, pidgeon, hawk)
+- dogs (terrier, poodle, bulldog, beagle, pug )
+- cats (persian, thai, wirehair, siamese)
+- ducks (pekin, crested, magpie, call)
+- snakes (python, cobra, boa constrictor, viper, rattlesnake)
 
 With each api, you will need to implement the following endpoints:
 
-* POST /
-* GET /
-* GET /:id
-* PUT /:id
-* DELETE /:id
+- POST /
+- GET /
+- GET /:id
+- PUT /:id
+- DELETE /:id
 
 All of the source files are in the routes directory.
 
-* [ ] birds
-* [ ] dogs
-* [ ] ducks
-* [ ] zoo
-* [ ] farm
+- [ ] birds
+- [ ] dogs
+- [ ] cats
+- [ ] ducks
+- [ ] snakes
 
 ## What do I need to know?
 
-* JavaScript
-* NodeJS (modules)
-* ExpressJS
+- JavaScript
+- NodeJS (modules)
+- ExpressJS
 
 ## Requirements
 
-* NodeJS v8+ https://nodejs.org
-* Text Editor - https://atom.io
+- NodeJS v8+ https://nodejs.org
+- Text Editor - https://atom.io or https://code.visualstudio.com/
 
 ## How to play
 
-* clone the `flapi-bird` repository
-* cd into the directory `flapi-bird`
-* run `npm install`
-* open the project in your editor `atom .` || `code .`
-* run `npm start`
+- clone the `flapi-birds` repository
+- cd into the directory `flapi-birds`
+- run `npm install`
+- open the project in your editor `atom .` || `code .`
+- run `npm start`
 
 The tests will be running in the console and will try to re-run every-time you save your files.
 
@@ -63,7 +63,7 @@ Repeat for all other api's.
 
 ## Help Support
 
-* Having trouble - create an issue on github
+- Having trouble - create an issue on github
 
 ## Contributions
 
@@ -71,7 +71,7 @@ All contributions are welcome.
 
 ## Thank you
 
-* JavaScript Community
-* NodeJS Community
-* ExpressJS Community
-* JRS Coding School (http://jrscode.com)
+- JavaScript Community
+- NodeJS Community
+- ExpressJS Community
+- JRS Coding School (http://jrscode.com)
