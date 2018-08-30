@@ -87,6 +87,6 @@ test('REMOVE bird using /birds/eagle endpoint', assert => {
   request(app)
     .delete('/birds/eagle')
     .then(response => {
-      assert.ok(response.ok)
+      assert.ok(response.body.ok)
     })
 })
